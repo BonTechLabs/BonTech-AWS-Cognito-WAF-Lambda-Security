@@ -1,0 +1,9 @@
+{
+  "triggerSource": "PreSignUp_SignUp",
+  "request": {
+    "userAttributes": {
+      "email": "attacker@blocked.example"
+    }
+  },
+  "response": {}
+}
