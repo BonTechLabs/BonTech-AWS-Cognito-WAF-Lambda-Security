@@ -1,0 +1,19 @@
+{
+  "Name": "BonTech-Block-France",
+  "Action": {
+    "Block": {}
+  },
+  "Priority": 0,
+  "VisibilityConfig": {
+    "SampledRequestsEnabled": true,
+    "CloudWatchMetricsEnabled": true,
+    "MetricName": "BonTech-Block-France"
+  },
+  "Statement": {
+    "GeoMatchStatement": {
+      "CountryCodes": [
+        "FR"
+      ]
+    }
+  }
+}
