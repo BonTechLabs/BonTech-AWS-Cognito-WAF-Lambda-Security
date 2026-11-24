@@ -60,6 +60,6 @@ Run the standalone Python unit tests locally (no AWS credentials needed):
 python -m unittest discover -s tests -v
 ```
 
-**Security note:** Do not commit AWS credentials, app client secrets, access tokens, verification codes, personal email addresses, real user data or unredacted AWS Console screenshots. This repository intentionally avoids the screenshot-derived AWS account identifier and user PII. The full PDF archive remains in the ChatGPT artifact, not uploaded here because it may contain identifying screenshots.
+**Security note:** Do not commit AWS credentials, app client secrets, access tokens, verification codes, personal email addresses, real user data or unredacted AWS Console screenshots. This repository intentionally avoids the screenshot-derived AWS account identifier and user PII. The full PDF archive remains PRIVACY not uploaded here because it may contain identifying screenshots.
 
 **Cost note:** AWS WAF typically incurs ongoing Web ACL, rule and request-processing charges. Delete lab resources when no longer needed.
